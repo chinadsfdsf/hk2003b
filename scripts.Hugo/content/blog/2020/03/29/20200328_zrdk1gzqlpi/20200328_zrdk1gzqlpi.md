@@ -1,0 +1,43 @@
+---
+title : "memehongkong:《孟子》是否孟子所寫呢？淺析孟子的思想〈昔日精華重溫：蕭若元說新高中中國語文範文〉 "
+date:        2020-03-29T01:07:14-07:00
+author:
+ - youtube_memehongkong
+tags:
+ - youtube
+ - memehongkong
+ - youtube_memehongkong
+ - 2020_03
+ - 2020_0329
+ - 2020_0329_01
+categories:
+ - 2020_0329
+#icon:        "fas fa-lock-open"
+#resImgTeaser: teaserpics/wikipedia.org/emacs-jokes.png
+---
+
+{{< mydiv text="memehongkong:全文連結： 孟子生平與思想〈魚我所欲也〉《蕭若元細說新高中中國語文範文》 https://youtu.be/U2-w4WXuJWk  加入我們的patreon：https://www.patreon.com/mrshiu 謎米新聞：news.memehk.com 謎米香港： www.memehk.com Facebook：www.facebook.com/memehkdotcom "
+>}}
+<br>
+
+
+{{< my2mp4withjpgdownload mp4="20200328_zrdk1gzqlpi.mp4"
+>}}
+
+{{< my2jpgexist "xx1.jpg" >}}<br>
+{{< my2jpgexist "xx2.jpg" >}}<br>
+{{< my2jpgexist "xx3.jpg" >}}<br>
+
+
+
+{{< mydiv text="memehongkong:《孟子》是否孟子所寫呢？淺析孟子的思想〈昔日精華重溫：蕭若元說新高中中國語文範文〉 "
+>}}
+<br>
+
+{{< my2linktextonly link="https://www.youtube.com/watch?v=ZRDK1GZqlpI"
+en="the origin source link" cn="原始來源網址"
+>}}
+
+
+<br>
+
