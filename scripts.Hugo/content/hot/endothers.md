@@ -21,7 +21,6 @@ categories:
 {{< mydiv4o link="https://hk2003.chinadsf.org/"   text="hk2003   2020年3月的新聞">}}
 {{< mydiv4o link="https://hk2003a.chinadsf.org/"  text="hk2003a  2020年3月的新聞a">}}
 {{< mydiv4o link="https://hk2003b.chinadsf.org/"  text="hk2003b  2020年3月的新聞b  <<<=== <<<===">}}
-{{< mydiv4o link="https://hk2003c.chinadsf.org/"  text="hk2003c  2020年3月的新聞c">}}
 
 #
 
