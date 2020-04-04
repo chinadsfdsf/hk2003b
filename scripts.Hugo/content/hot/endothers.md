@@ -12,6 +12,9 @@ categories:
 ---
 
 
+{{< mydiv4o link="/all.m3u8"                      text="使用 VLC player 来播放所有音频视频文件">}}
+
+
 {{< mydiv4o link="https://hk01.chinadsf.org/"     text="hk01     2020年1月之前的新聞">}}
 {{< mydiv4o link="https://hk2001.chinadsf.org/"   text="hk2001   2020年1月的新聞">}}
 {{< mydiv4o link="https://hk2002.chinadsf.org/"   text="hk2002   2020年2月的新聞">}}
