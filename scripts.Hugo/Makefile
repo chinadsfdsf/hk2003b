@@ -136,10 +136,10 @@ regenTestVersion: regenBaseCheck
 
 rg:regen
 regen: regenBaseCheck
+	make m3u
 	cd scripts.Hugo/ && nice -n 19 hugo       && hugo version
 	$(rmXML)
 	$(updateMakefile)
-	make m3u
 
 s : server
 server:
@@ -175,7 +175,12 @@ server5:
 	cd public/ && python -m $(pyHttP) 33225
 
 m3u  :
-	m3u8_gen_01.sh https://`cat CNAME`/blog docs/all.m3u8 scripts.Hugo/content/blog
+#	m3u8_gen_01.sh https://`cat CNAME`/blog     docs/all.m3u8                                 scripts.Hugo/content/blog
+#	m3u8_gen_01.sh https://`cat CNAME`/blog     scripts.Hugo/content/all.m3u8                 scripts.Hugo/content/blog
+#	m3u8_gen_01.sh https://`cat CNAME`/blog     scripts.Hugo/content/hot/all.m3u8             scripts.Hugo/content/blog
+#	mkdir -p scripts.Hugo/content/hot/endothers/
+#	m3u8_gen_01.sh https://`cat CNAME`/blog     scripts.Hugo/content/hot/endothers/all.m3u8   scripts.Hugo/content/blog
+	m3u8_gen_01.sh https://`cat CNAME`/blog     scripts.Hugo/content/all.m3u8                 scripts.Hugo/content/blog
 
 export help_textHU
 endif
@@ -259,3 +264,20 @@ myCodeCopy02:
 
 all:
 	@echo "$${help_text9}"
+
+export sed01XXX1:=<div>\
+	{{< my2m3uexist "music.m3u8" "red" >}} \
+	{{< my2m3uexist "music.xspf" "blue" >}} \
+	=== VLC , IPTV <\/div>
+
+xxxxxxx:=\
+
+
+sed01:
+	for aa1 in `find scripts.Hugo/content/blog/ -name "*.md" |grep -v "end0.\\.md" ` ; do \
+		tac $${aa1} | sed -e \
+		'0,/^---/ s/^---/\n$(sed01XXX1)\n\n&/' \
+		| tac > /tmp/sed01.tmp.txt ; \
+		cat /tmp/sed01.tmp.txt > $${aa1} ; \
+		done
+
