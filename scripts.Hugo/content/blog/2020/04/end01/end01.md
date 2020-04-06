@@ -1,6 +1,6 @@
 ---
 title : " guide 分網站列表（導航）自动跳转 "
-date:        2020-03-31T23:58:07-07:00
+date:        2020-04-05T09:49:07-07:00
 tags:
  - end
 categories:
@@ -15,3 +15,5 @@ categories:
 
 {{< my2goto "/hot/endothers/" >}}
 
+
+{{< my2m3uexist "music.m3u8" "red" >}} {{< my2m3uexist "music.xspf" "blue" >}}{{< my2span " <<<=== IPTV 播放器或者 VLC 播放器 " >}}
