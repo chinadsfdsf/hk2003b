@@ -629,7 +629,7 @@
   <!-- partials/resource.image.html  --> 
 
 
-    <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>28. Mar 2020</i></div>唐柏桥:   YN03220200327_gcrx4mrk6uu.mp4 下载视频 47706625 byte , 45.5 MiB 20200327_gcrx4mrk6uu.mp4 下载 jpg  部分手机显示不正常， 请横屏播放，或全屏播放  唐柏桥:中共民主革命路线图 何时爆发革命 结局会在怎样   原始來源網址    V单曲    V全部  播放器  目录    M1    M2
+    <div class="w3-right"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;<i>28. Mar 2020</i></div>唐柏桥:   YN03220200327_gcrx4mrk6uu.mp4 下载视频 47706625 byte , 45.5 MiB 20200327_gcrx4mrk6uu.mp4 下载 jpg  部分手机显示不正常， 请横屏播放，或全屏播放  唐柏桥:中共民主革命路线图 何时爆发革命 结局会在怎样   原始來源網址  单曲  全部  播放器  目录  M1  M2
 
   </div>
 </a>
@@ -801,8 +801,26 @@
     }
     startTime();
 })();
+    <!-- mytime12 end -->
+
+function copy2clipboard(text) {
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+    navigator.clipboard.writeText(text)
+}
+function abspath2(path2) {
+    return new URL( path2 , window.location.href ).href;
+}
+function copypath2clipboard(text3) {
+    copy2clipboard( abspath2(text3) )
+}
+function gotopath4(goto4) {
+    window.setTimeout(function(){window.top.location=abspath2(goto4)} , 1000);
+}
+
 </script>
-    
 
 
   </body>
