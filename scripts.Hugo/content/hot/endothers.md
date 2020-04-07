@@ -38,3 +38,4 @@ categories:
 {{< mydiv4o link="https://hk2012.chinadsf.org/"   text="hk2012   2020年12月的新聞">}}
 {{< mydiv4o link="https://hk2101.chinadsf.org/"   text="hk2101   2021年1月的新聞">}}
 
+{{< my2m3uforce "/all.xspf" "green" "black" " V全部 " >}} {{< my2m3uforce "/all.m3u8" "black" "red" " M3U8 " >}}
